@@ -10,35 +10,35 @@ var initialCats = [
 	{
 		name: 'Salem',
 		clickCount: 0,
-		imgURL: 'img/1413379559_412a540d29_z.jpg',
+		imgSrc: 'img/1413379559_412a540d29_z.jpg',
 		imgAttribution: 'https://flicker.com/photos/big',
 		nicknames: [{nick:'Sal'}, {nick:'Salemput'}, {nick: 'Sammy'}, {nick: 'Mr.Kitty Cat'}]
 	},
 	{
 		name: 'Keeta',
 		clickCount: 0,
-		imgURL: 'img/keeta.jpg',
+		imgSrc: 'img/keeta.jpg',
 		imgAttribution: 'https://flicker.com/photos/big',
 		nicknames: [{nick:'Keetation'}, {nick:'La bebe'}, {nick: 'Chiquiada'}]
 	},
 	{
 		name: 'Twix',
 		clickCount: 0,
-		imgURL: 'img/22252709_010df3379e_z.jpg',
+		imgSrc: 'img/22252709_010df3379e_z.jpg',
 		imgAttribution: 'https://flicker.com/photos/big',
 		nicknames: [{nick:'Twixy'}, {nick:'Twiddles'}, {nick: 'Twix Twin'}, {nick: 'Mr.Twixel'}]
 	},
 	{
 		name: 'Cato',
 		clickCount: 0,
-		imgURL: 'img/cato.jpg',
+		imgSrc: 'img/cato.jpg',
 		imgAttribution: 'https://flicker.com/photos/big',
 		nicknames: [{nick:'Catotion'}, {nick:'Cato Kitty'}, {nick: 'baby'}, {nick: 'Mr.Black'}]
 	},
 	{
 		name: 'Gordi',
 		clickCount: 0,
-		imgURL: 'img/9648464288_2516b35537_z.jpg',
+		imgSrc: 'img/9648464288_2516b35537_z.jpg',
 		imgAttribution: 'https://flicker.com/photos/big',
 		nicknames: [{nick:'Gordi-do'}, {nick:'Gordo'}, {nick: 'Mr.goo-goo'}, {nick: 'Gordi-dum'}]
 	}
