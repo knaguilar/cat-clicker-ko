@@ -3,6 +3,7 @@ var ViewModel = function() {
 	this.name = ko.observable('Tabby');
 	this.imgSrc = ko.observable('img/434164568_fea0ad4013_z.jpg');
 	this.imgAttribution = ko.observable('https://flicker.com/photos/big');
+	this.nicknames = ko.observableArray([{nick:'Tab Tab'}, {nick:'Tabert'}, {nick: 'Taberto'}, {nick: 'Tabloid'}]);
 
 	this.incrementCounter = function() {
 		this.clickCount(this.clickCount() + 1);
