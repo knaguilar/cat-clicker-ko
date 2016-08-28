@@ -1,13 +1,10 @@
-var ViewModel = function() {
+var Cat = function() {
 	this.clickCount = ko.observable(0);
 	this.name = ko.observable('Tabby');
 	this.imgSrc = ko.observable('img/434164568_fea0ad4013_z.jpg');
 	this.imgAttribution = ko.observable('https://flicker.com/photos/big');
 	this.nicknames = ko.observableArray([{nick:'Tab Tab'}, {nick:'Tabert'}, {nick: 'Taberto'}, {nick: 'Tabloid'}]);
 
-	this.incrementCounter = function() {
-		this.clickCount(this.clickCount() + 1);
-	};
 	this.levels = ko.computed(function() {
 		var levels;
 		var clicks = this.clickCount();
@@ -31,6 +28,16 @@ var ViewModel = function() {
 		}
 		return levels;
 	}, this);
+}
+
+
+var ViewModel = function() {
+
+	this.currentCat = ko.observable( new Cat() );
+
+	this.incrementCounter = function() {
+		this.currentCat().clickCount(this.currentCat().clickCount() + 1);
+	};
 }
 
 ko.applyBindings(new ViewModel());
